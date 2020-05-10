@@ -12,6 +12,7 @@ import javax.persistence.*;
  * Parent class itself is not mapped to any table.
  */
 @MappedSuperclass
+
 @Getter
 @Setter
 @NoArgsConstructor

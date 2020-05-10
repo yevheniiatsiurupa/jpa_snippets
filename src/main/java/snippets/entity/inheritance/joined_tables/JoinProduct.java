@@ -17,6 +17,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="inheritance_joined_table_product")
 @Inheritance(strategy = InheritanceType.JOINED)
+
 @Getter
 @Setter
 @NoArgsConstructor

@@ -18,6 +18,7 @@ import javax.persistence.Entity;
  */
 @Entity
 @DiscriminatorValue("PN")
+
 @Getter
 @Setter
 @NoArgsConstructor

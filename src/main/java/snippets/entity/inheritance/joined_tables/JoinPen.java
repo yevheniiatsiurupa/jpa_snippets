@@ -14,6 +14,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="inheritance_joined_table_pen")
+
 @Getter
 @Setter
 @NoArgsConstructor

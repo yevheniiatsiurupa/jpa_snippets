@@ -18,6 +18,7 @@ import javax.persistence.*;
 @Table(name="inheritance_single_table_product")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name="product_type")
+
 @Getter
 @Setter
 @NoArgsConstructor

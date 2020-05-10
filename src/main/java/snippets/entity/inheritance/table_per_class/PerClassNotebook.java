@@ -14,6 +14,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="inheritance_table_per_class_notebook")
+
 @Getter
 @Setter
 @NoArgsConstructor
