@@ -64,6 +64,7 @@ public class DataJpaConfig {
         hibernateProp.put("hibernate.batch_size", 10);
         hibernateProp.put("hibernate.fetch_size", 50);
         hibernateProp.put("hibernate.jdbc.batch_size", "5");
+        hibernateProp.put("hibernate.hbm2ddl.auto", "create-drop");
         return hibernateProp;
     }
 
