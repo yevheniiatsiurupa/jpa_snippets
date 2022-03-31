@@ -15,7 +15,7 @@
         <db.username>postgres</db.username>
         <db.password>password</db.password>
         <db.driver>org.postgresql.Driver</db.driver>
-        <spring.version>5.2.2.RELEASE</spring.version>
+        <spring.version>5.3.18</spring.version>
         <spring.security.version>5.2.1.RELEASE</spring.security.version>
         <springjpa.version>2.2.3.RELEASE</springjpa.version>
     </properties>
